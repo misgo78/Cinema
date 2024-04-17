@@ -1,0 +1,21 @@
+GET http://localhost:3000/api/realisator
+
+
+###
+
+POST http://localhost:3000/api/livres
+content-type: application/json
+
+{
+    "id": 1,
+
+    "auteur": {
+    "id": 1,
+    "nom": "Orwell",
+    "dateNaissance": "0000/00/00"
+}
+}
+
+
+###
+GET http://localhost:3000/50
